@@ -55,9 +55,4 @@ const coffeeMenu = [
     }
 ]
 
-export function then(resolve) {
-    console.log("then() called");
-    resolve(1);
-  }
-
-module.exports = coffeeMenu
+module.exports = coffeeMenu;
